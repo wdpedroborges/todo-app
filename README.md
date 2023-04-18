@@ -1,12 +1,3 @@
-# Todo App
-## A simple todo app in React.js
-
----
-
-This Todo app is built using ReactJS, a popular JavaScript library for building user interfaces. It provides users with a simple and intuitive interface for managing their daily tasks and organizing their schedules. With features like task creation, editing, and deletion, the app allows users to prioritize their tasks and stay on top of their to-do list. The app is also responsive, adapting to different screen sizes, and provides a seamless user experience on both desktop and mobile devices. Powered by ReactJS, this Todo app is fast, efficient, and easy to use, making it the perfect solution for anyone looking to streamline their daily tasks and stay productive.
-
----
-
 ![badge](https://img.shields.io/github/watchers/wdpedroborges/todo-app?style=social)
 ![badge](https://img.shields.io/github/stars/wdpedroborges/todo-app?style=social)
 ![badge](https://img.shields.io/github/license/wdpedroborges/todo-app)
@@ -15,11 +6,14 @@ This Todo app is built using ReactJS, a popular JavaScript library for building 
 ![badge](https://img.shields.io/badge/powered%20by-typescript-blue)
 ![badge](https://img.shields.io/badge/powered%20by-pico.css-blue)
 
----
+# Todo App
+## A simple todo app in React.js
+
+This Todo app provides users with a simple and intuitive interface for managing their daily tasks and organizing their schedules. With features like task creation, editing, and deletion, the app allows users to prioritize their tasks and stay on top of their to-do list. The app is also responsive, adapting to different screen sizes, and provides a seamless user experience on both desktop and mobile devices.
 
 ## Live Demo
 
-[Click here to see it]((wdpedroborges.github.io/todo-app))
+wdpedroborges.github.io/todo-app
 
 ## Features
 
@@ -65,7 +59,13 @@ npm run build
 
 ## Deploy
 
-- Add: base: "/<repo>/", to vite.config.js
+- Add to vite.config.js:
+
+```bash
+base: "/<repo>/"
+```
+
+- Then:
 
 ```bash
 npm install gh-pages --save-dev
